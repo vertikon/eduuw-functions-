@@ -3,14 +3,34 @@
   "version": "0.1.0",
   "description": "Runtime helpers for eduuw serverless Functions (defineFunction, ctx).",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/vertikon/eduuw-functions.git" },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vertikon/eduuw-functions.git"
+  },
   "homepage": "https://dashboard.eduuw.com.br",
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "README.md", "LICENSE"],
-  "scripts": { "build": "tsc -p tsconfig.json", "prepublishOnly": "npm run build" },
-  "engines": { "node": ">=18" },
-  "keywords": ["eduuw", "whatsapp", "serverless", "functions", "runtime"],
-  "devDependencies": { "typescript": "^5.4.0" }
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "eduuw",
+    "whatsapp",
+    "serverless",
+    "functions",
+    "runtime"
+  ],
+  "devDependencies": {
+    "typescript": "^5.4.0"
+  }
 }
